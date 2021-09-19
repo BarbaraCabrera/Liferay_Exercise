@@ -7,5 +7,6 @@ Para la inserción del nombre de los productos, se pide escribirlos tal cual se 
 De tal forma que se respeten las mayúsculas y las tildes del enunciado y sin añadir puntos finales.
 Los precios de los productos deberán escribirse con punto en vez de coma para los decimales.
 ~~~
+~~~
 Finalmente, comentar que solo se han añadido a la clase DataBase los artículos del enunciado.
 ~~~
