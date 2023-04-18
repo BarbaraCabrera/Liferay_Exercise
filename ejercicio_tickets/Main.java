@@ -15,7 +15,7 @@ public class Main {
         List<Item> shopping_cart = new ArrayList<Item>();
         int item_without_stock = 0;
         List<String> items_not_available = new ArrayList<String>();
-        
+		SQLDatabaseConnection sqlDatabaseConnection = new SQLDatabaseConnection();
              
         try{
         	while(!exit_purchase.equals("salir")){
@@ -23,6 +23,7 @@ public class Main {
         		System.out.println("Inicio de la compra\n");
         		exit_order = "";
         		shopping_cart.clear();
+				sqlDatabaseConnection.dataBase();
         		
 	            while(!exit_order.equals("terminar")){
 	            	
